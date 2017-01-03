@@ -1,7 +1,13 @@
-$white: rgba(240,240,240,1);
 $dark: rgba(84,122,130,1);
 $blue: rgba(62,172,168,1);
 $light: rgba(162,212,171,1);
+
+$fancy_red: #e76148;
+$fancy_blue: #76ded9;
+$white: #ffffff;
+$light_gray: #bdc3c7;
+$gray: #74767d;
+$dark_gray: #394045;
 
 @mixin linear-gradient($direction, $color-stops...) {
   background: nth(nth($color-stops, 1), 1);

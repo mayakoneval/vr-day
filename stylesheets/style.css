@@ -10,42 +10,41 @@ html, body {
   margin: 0; }
 
 body {
-  background: #f0f0f0;
-  color: #547a82;
+  background: #ffffff;
   text-align: center;
   font-family: 'Lato';
   font-weight: 300; }
 
 ::selection {
-  background: #3eaca8; }
+  background: #bdc3c7; }
 
 ::-moz-selection {
-  background: #3eaca8; }
+  background: #bdc3c7; }
 
 a {
-  color: #547a82;
+  color: #394045;
   text-decoration: none; }
 
 a:hover, a:visited:hover {
-  color: #547a82;
+  color: #394045;
   transition: all 200ms ease; }
 
 a:visited {
-  color: #547a82;
+  color: #394045;
   text-decoration: none; }
 
 button {
   margin: 10px;
   padding: 10px 50px;
-  border: 2px solid #f0f0f0;
+  border: 2px solid #ffffff;
   background-color: transparent;
-  color: #f0f0f0;
+  color: #ffffff;
   font-size: 1.2em;
   text-transform: uppercase;
   transition: all 300ms ease; }
 
 button:hover {
-  background-color: #f0f0f0;
+  background-color: #ffffff;
   color: #547a82; }
 
 .title {
@@ -53,10 +52,7 @@ button:hover {
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 5px;
-  margin-bottom: .75em; }
-
-.thin {
-  font-weight: 500; }
+  margin-bottom: 25px; }
 
 .content {
   font-family: 'Lato';
@@ -67,13 +63,13 @@ button:hover {
 #main {
   height: 100vh;
   padding: 0;
-  color: #f0f0f0;
+  color: #ffffff;
   text-transform: uppercase; }
   #main .bg {
     position: absolute;
     height: 100vh;
     width: 100vw;
-    background: linear-gradient(#a2d4ab, #3eaca8);
+    background: linear-gradient(300deg, #76ded9, #76ded9, 50%, #e76148, 60%, #e76148);
     z-index: -1; }
     #main .bg .left-trail {
       position: absolute;
@@ -85,11 +81,12 @@ button:hover {
       bottom: -10px;
       right: 0;
       width: 50%; }
-  #main .logo {
-    margin-top: 30vh;
-    margin-bottom: 25px;
-    height: 15vh;
-    max-width: 95vw; }
+  #main .title {
+    font-size: 5em;
+    padding-top: 30vh; }
+    #main .title img {
+      margin-top: -0.26em;
+      height: 1em; }
   #main .subtitle {
     font-size: 1.5em; }
     #main .subtitle .tagline {
@@ -103,14 +100,14 @@ button:hover {
 #about {
   padding: 80px 15vw;
   background: white;
-  color: #547a82; }
-  #about b {
-    color: #3eaca8; }
+  color: #74767d; }
+  #about .title {
+    color: #e76148; }
 
 #sponsors {
   padding: 80px 15vw;
-  color: #f0f0f0;
-  background: linear-gradient(45deg, #547a82, #547a82, #3eaca8);
+  color: #ffffff;
+  background: #76ded9;
   text-align: center; }
   #sponsors a {
     color: #a2d4ab; }
@@ -123,9 +120,10 @@ button:hover {
 
 #faq {
   padding: 80px 20px 20px 20px;
-  background: linear-gradient(30deg, #a2d4ab, #3eaca8, #a2d4ab);
-  color: #f0f0f0; }
+  background: #ffffff;
+  color: #74767d; }
   #faq .title {
+    color: #76ded9;
     margin-bottom: 1.25em; }
   #faq .content .row {
     padding: 0 10vw;
@@ -148,8 +146,8 @@ footer {
   font-weight: 400;
   letter-spacing: 2px;
   padding: 30px 5vw 37px 5vw;
-  background: #547a82;
-  color: #f0f0f0;
+  background: #e76148;
+  color: #ffffff;
   position: relative; }
   footer .col-sm-6 {
     margin-top: 10px; }
@@ -157,14 +155,14 @@ footer {
     font-size: 1.25em;
     padding: 0 2px; }
   footer a {
-    color: #f0f0f0;
+    color: #ffffff;
     font-size: .75em;
     display: inline-block; }
   footer a:hover, footer a:visited:hover {
-    color: #f0f0f0;
+    color: #ffffff;
     text-decoration: none; }
   footer #link {
-    color: #f0f0f0 !important;
+    color: #ffffff !important;
     font-size: 100%;
     font-weight: 700;
     letter-spacing: 2px; }

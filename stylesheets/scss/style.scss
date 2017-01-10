@@ -78,6 +78,10 @@ button:hover {
     height: 100vh;
     width: 100vw;
     background: linear-gradient(300deg, $fancy_blue, $fancy_blue, 50%, $fancy_red, 60%, $fancy_red);
+    background: url('../img/background.jpeg'), $gray;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
     z-index: -1;
 
     .left-trail {
@@ -133,7 +137,7 @@ button:hover {
 #sponsors {
   padding: 80px 15vw;
   color: $white;
-  background: $fancy_blue;
+  background: $light_gray;
 
   a {
     color: $light;
@@ -194,7 +198,7 @@ footer {
   font-weight: 400;
   letter-spacing: 2px;
   padding: 30px 5vw 37px 5vw;
-  background: $fancy_red;
+  background: $gray;
   color: $white;
   position: relative;
 

@@ -70,6 +70,10 @@ button:hover {
     height: 100vh;
     width: 100vw;
     background: linear-gradient(300deg, #76ded9, #76ded9, 50%, #e76148, 60%, #e76148);
+    background: url("../img/background.jpeg"), #74767d;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
     z-index: -1; }
     #main .bg .left-trail {
       position: absolute;
@@ -107,7 +111,7 @@ button:hover {
 #sponsors {
   padding: 80px 15vw;
   color: #ffffff;
-  background: #76ded9;
+  background: #bdc3c7;
   text-align: center; }
   #sponsors a {
     color: #a2d4ab; }
@@ -146,7 +150,7 @@ footer {
   font-weight: 400;
   letter-spacing: 2px;
   padding: 30px 5vw 37px 5vw;
-  background: #e76148;
+  background: #74767d;
   color: #ffffff;
   position: relative; }
   footer .col-sm-6 {

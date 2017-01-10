@@ -98,6 +98,10 @@ button:hover {
       width: 50%;
     }
   }
+
+  a {
+    color: $light_gray;
+  }
   
   .title {
     font-size: 5em;
@@ -137,7 +141,7 @@ button:hover {
 #sponsors {
   padding: 80px 15vw;
   color: $white;
-  background: $light_gray;
+  background: $fancy_blue;
 
   a {
     color: $light;
@@ -162,7 +166,7 @@ button:hover {
   color: $gray;
 
   .title {
-    color: $fancy_blue;
+    color: $fancy_red;
     margin-bottom: 1.25em;
   }
 

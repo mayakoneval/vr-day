@@ -85,6 +85,8 @@ button:hover {
       bottom: -10px;
       right: 0;
       width: 50%; }
+  #main a {
+    color: #bdc3c7; }
   #main .title {
     font-size: 5em;
     padding-top: 30vh; }
@@ -111,7 +113,7 @@ button:hover {
 #sponsors {
   padding: 80px 15vw;
   color: #ffffff;
-  background: #bdc3c7;
+  background: #76ded9;
   text-align: center; }
   #sponsors a {
     color: #a2d4ab; }
@@ -127,7 +129,7 @@ button:hover {
   background: #ffffff;
   color: #74767d; }
   #faq .title {
-    color: #76ded9;
+    color: #e76148;
     margin-bottom: 1.25em; }
   #faq .content .row {
     padding: 0 10vw;
